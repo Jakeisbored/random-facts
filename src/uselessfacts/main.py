@@ -59,4 +59,3 @@ def get_fact(id=None , format=None):
     }
   except Exception as error:
     raise Exception('Fact not found fool')
-print(get_fact('8b1f4d4d-193a-4ad0-ad19-ae8cfc17de12'))
