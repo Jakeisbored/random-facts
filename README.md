@@ -1,4 +1,4 @@
-# Welcome to random-facts python module !
+# Welcome to uselessfacts python module !
 A powerfull , flexible and modern python module to retrieve random useless facts from the mighty web , special thanks to [Joseph Paul](https://jsph.pl) for the api !
 # Getting started
 * Install the module with pip : `pip install random-facts`
@@ -42,6 +42,11 @@ A function that gets a fact's info by its ID
 Returns an **object** similar to :
 ```py
 {'status_code': 200, 'response': {'id': 'id of the fact , can be used in the get_fact() function to get its info', 'text': 'the fact itself', 'source': 'the source', 'source_url': 'the source url', 'language': 'its language', 'permalink': 'a link that lets you view the fact anytime anyplace'}}
+```
+## 4- Examples
+```py
+from uselessfacts import main 
+print(uselessfacts.random_fact())
 ```
 # Support
 Join my discord [server](https://discord.gg/9fhkSZH) for support
